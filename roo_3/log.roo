@@ -1,0 +1,13 @@
+// Spring Roo 2.0.0.RC2 [rev 76d128f] log opened at 2017-11-05 13:41:35
+project setup --topLevelPackage org.seven.roo --projectName "roo_3" --java 8 --multimodule STANDARD
+// Spring Roo 2.0.0.RC2 [rev 76d128f] log closed at 2017-11-05 13:41:36
+// Spring Roo 2.0.0.RC2 [rev 76d128f] log opened at 2017-11-05 13:41:38
+hint
+jpa setup --provider HIBERNATE --database MYSQL --hostName localhost --databaseName foodmarket --userName root --password root 
+hint
+settings add --name spring.roo.jpa.require.schema-object-name --value false --force
+repository jpa --all 
+repository jpa --all
+// Spring Roo 2.0.0.RC2 [rev 76d128f] log closed at 2017-11-05 15:49:01
+// Spring Roo 2.0.0.RC2 [rev 76d128f] log opened at 2017-11-06 15:30:18
+// Spring Roo 2.0.0.RC2 [rev 76d128f] log closed at 2017-11-06 16:42:36
