@@ -1,15 +1,19 @@
 ##ignore this file##
 /target/
+*/target/
 /logs/
 /bin/
 
 .classpath
 .project
-.settings      
- ##filter databfile��sln file##
+.settings
+.roo
+
+ ##filter databfile sln file##
 *.mdb  
 *.ldb  
 *.sln    
+
 ##class file##
 *.com  
 *.class  
@@ -17,6 +21,7 @@
 *.exe  
 *.o  
 *.so  
+
 # compression file
 *.7z  
 *.dmg  
@@ -29,6 +34,7 @@
 *.via
 *.tmp
 *.err 
+
 # OS generated files #  
 .DS_Store  
 .DS_Store?  
